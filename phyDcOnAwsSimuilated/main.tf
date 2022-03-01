@@ -77,7 +77,7 @@ data "aws_ami" "std_ami" {
   owners      = ["amazon"]
 
   filter {
-    Name   = "name"
+    name   = "name"
     values = ["amzn2-ami-hvm*"]
   }
 }
