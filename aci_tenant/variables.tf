@@ -24,8 +24,8 @@ variable "tenant_stuff" {
     description  = string
   })
   default = {
-    tenant_name  = "aciAwsBrownfieldPOC"
-    display_name = "aciAwsBrownfieldPOC"
+    tenant_name  = "aciAwsExternalConnPOC"
+    display_name = "aciAwsExternalConnPOC"
     description  = " Soumitra Terraform Created Tenant"
   }
 }
