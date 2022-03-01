@@ -8,7 +8,7 @@ Please see https://unofficialaciguide.com for full details
 ```
 aci_tenant                 # Used to spin up an ACI Tenant with 1 VPC, 3 subnets with Transit Gateway Connecitivy to ACI Infra Tenant and other associated objects
 awsEC2-onACI_tenant        # Please use the aci_tenant script first.  This script will spin up an ec2 with Apache installed on the ACI Tenant
-phyDConAwsSimuilated            #  This script will create a simulated External Data Center environment that you can then integrate with ACI Tenant.  This will help you 
+phyDcOnAwsSimuilated            #  This script will create a simulated External Data Center environment that you can then integrate with ACI Tenant.  This will help you 
                               to get familiar with the integration without getting distraced by having to setup the basic external Data Center and ACI Tenant.
                               Physical Simulated DC will have 1 VPC with 1 CIDR and 2 subnets.  It will also have IGW so yoyou can ssh in to the EC2 that will be spun up by the plan.  
                               
