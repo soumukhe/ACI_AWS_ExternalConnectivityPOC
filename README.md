@@ -1,4 +1,4 @@
-# AciAWSBrField-IntegrationPOC
+# ACI_AWS_ExternalConnectivityPOC
 Code for spinning up full ACI Tenant with EC2s on AWS,  Physical Simulated Environment and EC2s for ACI/AWS External Connectivity POC
 Used for POC for ACI/AWS External Connecitivity POC
 
